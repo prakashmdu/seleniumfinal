@@ -1,3 +1,4 @@
+
 package com.imdb.pages;
 
 import org.openqa.selenium.WebDriver;
@@ -27,6 +28,8 @@ public class LoginPage extends BasePage {
 
 	public void loginCorrecto(String credentials) {
 		
+		System.out.println("Pradee");
+		System.out.println("Riya");
 		userField.sendKeys(Utils.getUser(credentials));
 		passField.sendKeys(Utils.getPassword(credentials));
 		loginButton.click();
