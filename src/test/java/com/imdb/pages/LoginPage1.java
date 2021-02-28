@@ -27,6 +27,8 @@ public class LoginPage extends BasePage {
 
 	public void loginCorrecto(String credentials) {
 		
+		System.out.println("Prakash");
+		System.out.println("Rishi");
 		userField.sendKeys(Utils.getUser(credentials));
 		passField.sendKeys(Utils.getPassword(credentials));
 		loginButton.click();
